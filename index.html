@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- <meta http-equiv="x-ua-compatible" content="ie=edge" /> -->
+    <title>AZ E-Wallet | Digital wallet solution for all your payment needs</title>
+    <meta name="description" content="A mobile wallet that allows you to go cashless with your mobile in a smooth and secure manner. Recharge, pay bills, receive and send money.">
+
+    <meta name="keywords" content=" pay bills online, buy online, online money transfer, send money online, pay online Kuwait">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- Web Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/LineIcons.2.0.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/tiny-slider.css" />
+    <link rel="stylesheet" href="assets/css/glightbox.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+               
+                                
+
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- /End Preloader -->
+
+
+    <!-- Start Header Area -->
+    <header class="header">
+        <div class="navbar-area">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand logo" href="index.html">
+                                <img class="primary-logo" src="assets/images/logo/white-logo.png" alt="Logo" />
+                                <img class="alt-logo" src="assets/images/logo/logo.png" alt="Logo" />
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul id="nav" class="navbar-nav me-auto">
+                                    <li class="nav-item">
+                                        <a class="page-scroll active" href="#hero-area">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="individual.html">Individual</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="business.html">Business</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#video">How To Create an Account</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#testimonials">News</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#team">Team</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a onclick="document.getElementById('id01').style.display='block'" style="cursor: pointer;">Sign In</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="">Sign Up</a>
+                                    </li>
+                                </ul>
+                                
+                            </div>
+                            <!-- navbar collapse -->
+                            
+                        </nav>
+                        <!-- navbar -->
+                    </div>
+                </div>
+                <!-- row -->
+            </div>
+            <!-- container -->
+        </div>
+        <!-- navbar area -->
+
+        <div id="id01" class="modal">
+  
+          <div class="container d-flex justify-content-center align-items-center">
+              <div class="card">
+                  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+                  <div class="p-3 border-bottom d-flex align-items-center justify-content-center">
+                      <h5>Sign In</h5>
+                  </div>
+
+                  <div class="p-3 px-4 py-4 border-bottom"> <input type="email" class="form-control mb-2" placeholder="Email/Username" />
+                      <div class="form">
+                          <input type="password" id="password" class="form-control" placeholder="Password" autocomplete="current-password" required><a style="text-decoration: none;"><i class="bi bi-eye-slash" id="togglePassword"></i></a>
+                          
+                      </div> 
+                      
+                      <button class="btn btn-danger btn-block continue">Continue</button>
+
+                      <div class="d-flex justify-content-center align-items-center mt-3 mb-3"> <span class="line"></span> <small class="px-2 line-text">OR</small> <span class="line"></span> </div> 
+
+                      <button class="btn btn-danger btn-block continue facebook-button d-flex justify-content-start align-items-center"> <i class="fa fa-facebook ml-2"></i> <span class="ml-5 px-4">Continue with Facebook</span></button>
+                      <br>
+                      <button class="btn btn-danger btn-block continue google-button d-flex justify-content-start align-items-center"> <i class="fa fa-google ml-2"></i> <span class="ml-5 px-4">Continue with Google</span></button>
+
+                  </div>
+                  <div class="p-3 d-flex flex-row justify-content-center align-items-center member"><a href="#" class="text-decoration-none ml-2"><span>Forgot Password?</span>&nbsp</a></div>
+              </div>
+        </div>
+        
+        <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js'></script>
+        <script type='text/javascript'></script>
+
+        <script type="text/javascript">
+            const togglePassword = document.querySelector('#togglePassword');
+            const password = document.querySelector('#password');
+
+            togglePassword.addEventListener('click', function (e) {
+                // toggle the type attribute
+                const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+                password.setAttribute('type', type);
+                // toggle the eye / eye slash icon
+                this.classList.toggle('bi-eye');
+            });
+        </script>
+
+        </div>
+  
+        <script>
+           var modal = document.getElementById('id01');
+           window.onclick = function(event) {
+               if (event.target == modal) {
+                   modal.style.display = "none";
+               }
+           }
+        </script>
+    </header>
+    <!-- End Header Area -->
+
+    <!-- Start Hero Area -->
+    <section id="hero-area" class="hero-area">
+        <!-- Single Slider -->
+        <div class="hero-inner">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-lg-6 col-12">
+                        <div class="home-slider">
+                            <div class="hero-text">
+                                <h5 class="wow fadeInUp" data-wow-delay=".3s">Introducing AZ eWallet</h5>
+                                <h1 class="wow fadeInUp" data-wow-delay=".5s">A to Z for all your<br> FinTech services!</h1>
+                                <p class="wow fadeInUp" data-wow-delay=".7s">With AZ eWallet, settling up feels like catching up. Send and receive money with AZ eWallet friends and express yourself in each payment note.</p>
+                                <div class="button wow fadeInUp" data-wow-delay=".9s">
+                                    <a href="https://play.google.com/store/apps/details?id=com.azewallet" target="__blank" class="btn"><i class="lni lni-android-original"></i> Play Store</a>
+                                    <a href="https://apps.apple.com/kw/app/az-ewallet/id1553030947" target="__blank" class="btn primary"><i class="lni lni-apple"></i> App Store</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-6 col-12">
+                        
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!--/ End Single Slider -->
+    </section>
+    <!--/ End Hero Area -->
+
+    
+
+    <section id="explore" class="app-description section white-bg">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-lg-6 col-12">
+<div class="left wow fadeInLeft" data-wow-delay=".4s">
+<img src="assets/images/app-description/image3.png" alt="#" style="width: 90%;">
+</div>
+</div>
+<div class="col-lg-6 col-12">
+<div class="right wow fadeInRight" data-wow-delay=".6s">
+<div class="section-title">
+<span>Mastercard's</span>
+<h2>Prepiad Virtual & Physical Cards</h2>
+<p>With our prepiad Virtual & Physical Cards, you can make payments for goods, services and international subscriptions from your AZ eWallet. Make offline or online payments seamlessly with your AZ eWallet Virtual & Physical card.
+</div>
+<ul>
+<li>
+<i class="lni lni-checkmark"></i> <span>Easy</span>
+<p>Join AZ eWallet on your phone in minutes. As soon as your account is open, you’ll get your virtual card.</p>
+</li>
+<li>
+<i class="lni lni-checkmark"></i> <span>Fast</span>
+<p>Fund your account in seconds in four different ways. Make instant payments and transfers.</p>
+</li>
+<li>
+<i class="lni lni-checkmark"></i> <span>Seamless</span>
+<p>Access your statements and balance whenever and wherever you are in the world.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="app-description style2 section">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-lg-6 col-12">
+<div class="right wow fadeInLeft" data-wow-delay=".2s">
+<div class="section-title">
+<span>AZ Exchange's</span>
+<h2>International Money Transfer</h2>
+<p>With so many options to transfer money internationally - through bank accounts, mobile wallets, at thousands of locations and online - AZ eWallet lets you find your way.</p>
+</div>
+<ul>
+<li>
+<i class="lni lni-checkmark"></i> Check your fees and exchange rates.
+</li>
+<li>
+<i class="lni lni-checkmark"></i> See all your transfer statuses at a glance.
+</li>
+<li>
+<i class="lni lni-checkmark"></i> Resend in just a few taps.
+</li>
+<li>
+<i class="lni lni-checkmark"></i> Start your money transfer on the app now.
+</li>
+</ul>
+</div>
+</div>
+<div class="col-lg-6 col-12">
+<div class="left last wow fadeInRight" data-wow-delay=".4s">
+<img src="assets/images/app-description/image4.png" alt="#" style="width: 90%;">
+</div>
+</div>
+ </div>
+</div>
+</section>
+
+
+<section id="video" class="intro-video-area">
+ <div class="container">
+  <div class="video-inner ">
+   <div class="row align-items-center">
+    <div class="col-lg-6 col-12">
+     <div class="section-title" style="text-align: left;">
+     <span>Account Creation</span>
+     <h2>How To Create an Account</h2>
+     <p>Launch your AZ eWallet app
+     <br>Tap on 'Create an Account' at the bottom of the screen
+     <br>Enter your name, mobile number, civil ID number, email address and a password
+     <br>Tap on 'Create Account'
+     <br>You will get an OTP on the mobile number you entered
+     <br>Once you enter the OTP and click on ‘Submit’
+     <br>Tap on 'Create Account'
+     <br>Your account will be created</p>
+     </div>
+    </div>
+    <div class="col-lg-6 col-12">
+     <!-- <div class="intro-video-play">
+      <div class="row justify-content-center">
+       <div class="col-lg-10 col-12">
+        <div class="play-thumb wow zoomIn" data-wow-delay=".2s">
+        <a href="https://www.youtube.com/watch?v=r44RKWyfcFw&fbclid=IwAR21beSJORalzmzokxDRcGfkZA1AtRTE__l5N4r09HcGS5Y6vOluyouM9EM" class="glightbox video"><i class="lni lni-play"></i></a>
+        </div>
+       </div>
+      </div>
+     </div> -->
+     <div class="row justify-content-center">
+       <div class="col-lg-10 col-12">
+       <img style="max-height: 450px;" src="assets/images/faq/app-mobile-image.png" class="img-fluid" alt="...">
+       </div>
+   </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</section>
+
+    
+
+
+<section id="testimonials" class="section testimonials">
+<div class="container">
+<div class="row">
+<div class="col-12">
+<div class="section-title">
+<span class="wow fadeInDown" data-wow-delay=".2s">News</span>
+<h2 class="wow fadeInUp" data-wow-delay=".4s">Latest News & Events</h2>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-4 col-md-6 col-12">
+
+<div class="single-testimonial">
+<div class="top-section">
+<img src="assets/images/testimonial/testi1.jpg" alt="#">
+<h3>
+AZ eWallet signs with Mastercard for issuance of Physical and Virtual cards.
+<span>08/06/2021</span>
+</h3>
+</div><br>
+<!-- 
+<p>Time is the most precious thing you have when bootstrapping. You can't take time to ponder on
+design…</p>
+<p style="text-align: right;"><a href="news.html">Read More</a></p> -->
+</div>
+
+</div>
+<div class="col-lg-4 col-md-6 col-12">
+
+<div class="single-testimonial">
+<div class="top-section">
+<img src="assets/images/testimonial/testi2.jpg" alt="#">
+<h3>
+Mr. Mazin AlNahedh Joins AZ eWallet as a Chairman
+<span>03/06/2021</span>
+</h3>
+</div>
+<br>
+<!-- <p>Time is the most precious thing you have when bootstrapping. You can't take time to ponder on
+design…</p>
+<p style="text-align: right;"><a href="news.html">Read More</a></p> -->
+</div>
+
+</div>
+<div class="col-lg-4 col-md-6 col-12">
+
+<div class="single-testimonial">
+<div class="top-section">
+<img src="assets/images/testimonial/testi3.jpg" alt="#">
+<h3>
+AZ eWallet signs with TerraPay
+<span>17/03/2021</span>
+</h3>
+</div>
+<br>
+<!-- <p>Time is the most precious thing you have when bootstrapping. You can't take time to ponder on
+design…</p>
+<p style="text-align: right;"><a href="news.html">Read More</a></p> -->
+</div>
+
+</div>
+
+</div>
+</div>
+</section>
+
+
+
+<section id="team" class="team section">
+<div class="container">
+<div class="row">
+<div class="col-12">
+<div class="section-title align-center gray-bg">
+<span class="wow fadeInDown" data-wow-delay=".2s">Team</span>
+<h2 class="wow fadeInUp" data-wow-delay=".4s">Meet The Team</h2>
+</div>
+</div>
+</div>
+<div class="row">
+
+<div class="col-lg-4 col-md-6 col-12">
+<div class="single-team wow fadeInUp" data-wow-delay=".1s">
+
+<div class="image">
+<img src="assets/images/team/team1.jpg" alt="#">
+
+<ul class="social">
+<li><a href="#" target="__blank"><i class="lni lni-facebook-filled"></i></a></li>
+<li><a href="https://mobile.twitter.com/amzsubaie?lang=en" target="__blank"><i class="lni lni-twitter-original"></i></a></li>
+<li><a href="https://www.linkedin.com/in/abdulaziz-alsubaie-b4253157/" target="__blank"><i class="lni lni-linkedin-original"></i></a></li>
+</ul>
+
+</div>
+
+<div class="info-head">
+
+<div class="info-box">
+<h4 class="name"><a href="team-single.html">Abdulaziz AlSubaie</a></h4>
+<span class="designation">Founder & CEO</span>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="col-lg-4 col-md-6 col-12">
+<div class="single-team wow fadeInUp" data-wow-delay=".2s">
+
+<div class="image">
+<img src="assets/images/team/team2.jpg" alt="#">
+
+<ul class="social">
+<li><a href="#" target="__blank"><i class="lni lni-facebook-filled"></i></a></li>
+<li><a href="#" target="__blank"><i class="lni lni-twitter-original"></i></a></li>
+<li><a href="#" target="__blank"><i class="lni lni-linkedin-original"></i></a></li>
+</ul>
+
+</div>
+
+<div class="info-head">
+
+<div class="info-box">
+<h4 class="name"><a href="team-single.html">Mazin AlNahedh</a></h4>
+<span class="designation">Chairman</span>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="col-lg-4 col-md-6 col-12">
+<div class="single-team wow fadeInUp" data-wow-delay=".3s">
+
+<div class="image">
+<img src="assets/images/team/team3.jpg" alt="#">
+
+<ul class="social">
+ <li><a href="#" target="__blank"><i class="lni lni-facebook-filled"></i></a></li>
+<li><a href="#" target="__blank"><i class="lni lni-twitter-original"></i></a></li>
+<li><a href="https://www.linkedin.com/in/hamza-khan-b31520173/" target="__blank"><i class="lni lni-linkedin-original"></i></a></li>
+</ul>
+
+</div>
+
+
+
+<div class="info-head">
+
+<div class="info-box">
+<h4 class="name"><a href="team-single.html">Hamza Khan</a></h4>
+<span class="designation">Project Manager</span>
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+
+  <section id="faqs" class="faq section">
+<div class="container">
+<div class="row">
+<div class="col-lg-6 col-md-12 col-12">
+<div class="section-title align-left">
+<span class="wow fadeInDown" data-wow-delay=".1s">Frequently asked questions</span>
+<h2 class="wow fadeInUp" data-wow-delay=".2s">We have some FAQ to<br> inform you more</h2>
+</div>
+<div class="accordion" id="accordionExample">
+<div class="accordion-item">
+<h2 class="accordion-header" id="headingOne">
+<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+<span>I didn’t receive a payment I’m expecting?</span><i class="lni lni-chevron-down"></i>
+</button>
+</h2>
+<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+<div class="accordion-body">
+<p>Each AZ eWallet user involved in a payment can usually verify that the payment was successful if they received a notification and if the payment appears in their personal transactions feed. The payment will be listed in red with a minus sign on the sender's account to show that the money was sent. It'll be listed in green on the recipient's account to show that the money arrived.</p>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header" id="headingTwo">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+<span>Can you cancel my payment?</span><i class="lni lni-chevron-down"></i>
+</button>
+</h2>
+<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+<div class="accordion-body">
+<p>Unfortunately no—the moment you send a payment in AZ eWallet, we send a request to your bank/card company to debit the funds and make them available to your friend.</p>
+<p>The fastest way to get a refund is to have your friend send you a payment for the same amount. Keep in mind our Support team won’t be able to reverse the payment for you unless the money is still in your friend’s account, their account is in good standing, and they reach out to us directly with permission.</p>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header" id="headingThree">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+<span>What documents are required to complete my registration?</span><i class="lni lni-chevron-down"></i>
+</button>
+</h2>
+<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+<div class="accordion-body">
+<p>Your Civil ID details, an email address, a phone number.</p>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header" id="headingFour">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+<span>What do I do after registering as an AZ eWallet merchant?</span><i class="lni lni-chevron-down"></i>
+</button>
+ </h2>
+<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+<div class="accordion-body">
+<p>Start sending or receiving money! Remember that you only need the phone number of another AZ eWallet user to make a transaction. You can also receive payments from your customers.</p>
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header" id="headingFour">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+<span>What do I do if I accidentally paid a stranger instead of my friend?</span><i class="lni lni-chevron-down"></i>
+</button>
+ </h2>
+<div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+<div class="accordion-body">
+<p>Send them a charge request for the same amount with a note asking them to pay you back for the money you sent by mistake.</p>
+<p>If you don’t hear back from them or need help sending a charge request, feel free to check out this article for instructions on how to contact us.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-6 col-12">
+<div class="faq-image wow fadeInRight" data-wow-delay=".3s">
+<img src="assets/images/faq/app-mobile-image.png" alt="#">
+</div>
+</div>
+</div>
+</div>
+</section>
+
+    <!-- Start Footer Area -->
+    <footer class="footer">
+        <div class="footer-middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <!-- Single Widget -->
+                        <div class="f-about single-footer">
+                            <div class="logo">
+                                <a href="index.html"><img src="assets/images/logo/white-logo.png" alt="Logo"></a>
+                            </div>
+                            <p>AZ eWallet is an online E-Wallet company that serves as a virtual wallet to its users through it's online platform.</p>
+                            <div class="footer-social">
+                                <ul>
+                                    <li><a href="https://www.instagram.com/azewallet/?hl=en"><i class="lni lni-instagram-original"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/company/az-ewallet" target="__blank"><i class="lni lni-linkedin-original"></i></a></li>
+                                    <li><a href="https://twitter.com/AzEwallet"><i class="lni lni-twitter-original"></i></a></li>
+                                    <!-- <li><a href="#"><i class="lni lni-google"></i></a></li> -->
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- End Single Widget -->
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-12">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <!-- Single Widget -->
+                                <div class="single-footer sm-custom-border f-link">
+                                    <h3>Company</h3>
+                                    <ul>
+                                        <li><a href="#hero-area">Home</a></li>
+                                        <li><a href="individual.html">Individual</a></li>
+                                        <li><a href="business.html">Business</a></li>
+                                        <li><a href="#">Terms & Conditions</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Refund Policy</a></li>
+                                    </ul>
+                                </div>
+                                <!-- End Single Widget -->
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <!-- Single Widget -->
+                                <div class="single-footer sm-custom-border f-link">
+                                    <h3>Workflow Solutions</h3>
+                                    <ul>
+                                        <li><a href="#video">How To Create an Account</a></li>
+                                        <li><a href="#">Accept Payment API</a></li>
+                                        <li><a href="#">Merchant Sign Up</a></li>
+                                        <li><a href="#">Merchant Sign In</a></li>
+                                        <li><a href="#faqs">FAQs</a></li>
+                                    </ul>
+                                </div>
+                                <!-- End Single Widget -->
+                            </div>
+                            <div class="col-lg-4 col-md-12 col-12">
+                                <!-- Single Widget -->
+                                <div class="single-footer md-custom-border sm-custom-border f-contact">
+                                    <h3>Contact Info</h3>
+                                    <ul>
+                                        <li><i class="lni lni-map-marker"></i> 9th Floor, Al-Nasser Tower, Qibla, Al-Soor St., Kuwait City
+                                        </li>
+                                        <li><i class="lni lni-envelope"></i> info@az-ewallet.com</li>
+                                        <li><i class="lni lni-phone"></i> +965 2244 1414</li>
+                                    </ul>
+                                </div>
+                                <!-- End Single Widget -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ End Footer Middle -->
+        <!-- Start Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="inner">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="left">
+                                <p>Designed and Developed by<a href="https://az-tech-kw.com/" rel="nofollow"
+                                        target="_blank">AZ Tech</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer Middle -->
+    </footer>
+    <!--/ End Footer Area -->
+
+    <!-- ========================= scroll-top ========================= -->
+    <a href="#" class="scroll-top btn-hover">
+        <i class="lni lni-chevron-up"></i>
+    </a>
+
+    <!-- ========================= JS here ========================= -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/count-up.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/tiny-slider.js"></script>
+    <script src="assets/js/glightbox.min.js"></script>
+    <script src="assets/js/imagesloaded.min.js"></script>
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
+
